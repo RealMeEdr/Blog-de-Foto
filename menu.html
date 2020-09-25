@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.css" />
+
+
+<style type="text/css">
+a {
+	padding: 10px;
+	color: #CCC;
+}
+a:hover{
+	color:#0CF;
+	transition:0.8s;
+	}
+body{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	
+}
+#centro {
+	transition:2s;
+}
+	
+</style>
+<script type="text/javascript">
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body style="color:#FFF">
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'your-app-id',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v6.0'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<nav class="justify-content-center navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" style="font-family:'Arial Black', Gadget, sans-serif;">Fotografía</a>
+    <div class="nav">
+      <a href="https://www.nationalgeographic.es/fotografia/2019/12/las-mejores-fotografias-ineditas-de-2019" target="_blank">Galería</a>
+      <a href="https://creacionliteraria.net/2018/04/cual-es-la-historia-de-la-camara-fotografica/" target="_blank">Historia</a>
+      <a href="articulo 3.html" target="_blank">Mi expericencia</a>
+      <a href="https://consult2.000webhostapp.com/index.html" target="_blank">Proyecto final</a>
+    </div>
+  </div>
+</nav>
+<br />
+<div align="center">
+<h1 style="color:#006;">El Blog de Fotógrafo Amateur. </h1>
+<br />
+
+<br />
+<a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('centro','','img/centro.jpg',0)"><img src="img/centro del blog.jfif" width="500" height="600" id="centro" /></a> </div>
+<br />
+<div>
+<h6 align="justify" style="color:#339; font-family:'Comic Sans MS', cursive; padding:0 10px">
+Como ya sabes <b>Los Blogs son una estupenda forma de aprender fotografía.</b>
+<br /><br />
+En este blog, tanto tu como yo aprenderemos a poder manejar mejor nuestras cámaras para que <b>cada paso pueda ser grande</b> y podamos lograr ese sueño de ser grandes conocedores de nuetras cámaras y a su vez, ser grandes fotógrafos.
+<br /><br />
+Aquí podrás aprender un poco de la historia de la cámara fotográfica, así como la primer foto, entre otras cosas importantes.
+</h6>
+</div>
+
+
+<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="5"></div>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+
+</html>
